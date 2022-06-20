@@ -50,7 +50,7 @@ if minor_version % 2:
 else:
     branch = series
 
-download_url = 'https://github.com/tryton-ar/party_ar/tree/%s' % branch
+download_url = 'https://github.com/rollyar/party_ar/tree/%s' % branch
 
 LINKS = {
     'pyafipws': ('git+https://github.com/PyAr/'
@@ -80,7 +80,7 @@ setup(name='%s_%s' % (PREFIX, MODULE),
     description='Tryton module that integrates AFIP (Argentina) with party',
     long_description=read('README'),
     author='tryton-ar',
-    url='https://github.com/tryton-ar/party_ar',
+    url='https://github.com/rollyar/party_ar',
     download_url=download_url,
     package_dir={'trytond.modules.%s' % MODULE: '.'},
     packages=[
